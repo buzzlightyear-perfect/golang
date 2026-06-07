@@ -1,9 +1,8 @@
 package main
 
-import "fmt"
 
-func main() {
+func main(){
+	tipedata()
 
-	fmt.Println("helloworld");
-	
+
 }
