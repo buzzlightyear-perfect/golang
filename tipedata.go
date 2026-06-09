@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func tipedata() {
 
@@ -47,7 +50,7 @@ func Tuser() {
 		fmt.Scan(&pilih)
 
 		if pilih != "y"{
-			break
+			os.Exit(0)
 		}
 	}
 }
