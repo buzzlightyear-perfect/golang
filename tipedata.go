@@ -28,12 +28,17 @@ func loop(){
 
 func dowhile(){
 
+	var batas int
+
+	fmt.Println("masukan angka")
+	fmt.Scanln(&batas)
+
 	i:= 1
 
 	for {
-		fmt.Println("do while")
+		fmt.Println("do while ke:", i)
 		i++
-		if i > 5 {
+		if i > batas {
 			break
 		}
 	}
