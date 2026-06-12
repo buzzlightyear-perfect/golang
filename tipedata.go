@@ -59,3 +59,7 @@ func Tuser() {
 		}
 	}
 }
+
+func nama() {
+	
+}
