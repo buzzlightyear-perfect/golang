@@ -59,5 +59,3 @@ func Tuser() {
 		}
 	}
 }
-
-oji
